@@ -1,0 +1,113 @@
+.layout-three-main-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.layout-three-content-container{
+    display: flex;
+    width: 1233px;
+    height: 389px;    
+    background: linear-gradient(180deg, #D82E76 0%, #FF032D 100%);
+    border-radius: 15px;
+}
+
+.layout-three-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.layout-three-title-text{
+    color: white;
+    font-size:40px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center
+}
+.layout-three-tiles{
+    width: 327px;
+    height: 224px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.layout-three-tiles-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.layout-three-tile-content{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.layout-three-tile-icon-container{
+    width: 45px;
+    height: 45px;
+    background: #FEEDF1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.layout-three-tile-icon-Vector{
+    background-image: url('../../assets/Vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.layout-three-tile-icon-time{
+    background-image: url('../../assets/time.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.layout-three-tile-icon-thumbs{
+    background-image: url('../../assets/thumbs.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.layout-three-tile-icon-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.layout-three-tile-title{
+    font-size: 18px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    color: #212529;
+}
+
+.layout-three-tile-higilight{
+    font-size: 36px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.text-gradiant{
+    background: #ff0000; /* fallback for old browsers */
+    background: linear-gradient(180deg, #D82E76 0%, #FF032D 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.layout-three-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}

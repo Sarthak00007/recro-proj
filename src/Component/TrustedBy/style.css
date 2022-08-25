@@ -1,0 +1,45 @@
+.layout-two-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.layout-two-title-container{
+    width: 100%;
+}
+
+.layout-two-logo-container{
+    display: flex;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.layout-two-logo{
+    display: flex;
+    margin: 25px 25px;
+    align-items: center;
+}
+
+.flip-cart{
+    height: 100px !important;
+}
+
+.layout-two-container-bg{
+    display: flex;
+    flex-direction: column;
+    background: url('../../assets/text_effect_1.png') left top no-repeat;
+    background-size: 7%;
+    background-position-x: 7%;
+
+}
+
+.layout-two-logo-img{
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+.layout-two-content-form-title{
+    font-size: 2.5rem;
+    
+}

@@ -1,0 +1,13 @@
+.copy-right-container{
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

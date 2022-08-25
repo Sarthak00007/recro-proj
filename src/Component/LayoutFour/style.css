@@ -1,0 +1,36 @@
+.layout-four-main-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    background-color: #FBFBFB;
+}
+
+.layout-four-image-background{
+    background: url('../../assets/V2jUM1c.png') left top no-repeat;
+}
+
+.title-text{
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-text{
+    text-align: center;
+    margin-top: 20px;
+    color: #333333;
+}
+
+.layout-four-image-container{
+    height: 500px;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.layout-four-image{
+    width: auto;
+    height: 100%;
+}

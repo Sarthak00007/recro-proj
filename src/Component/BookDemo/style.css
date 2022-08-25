@@ -1,0 +1,46 @@
+.book-demo-container{
+    height: 233px;
+    width: 100%;
+    background: #FFEDF2;
+}
+
+.book-demo-content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.book-demo-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+.book-demo-button{
+    width: 194px;
+    height: 49px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.book-demo-button-container{
+    display: flex;
+    align-items: center;
+}
+
+.book-demo-content-logo{
+    display: flex
+}
